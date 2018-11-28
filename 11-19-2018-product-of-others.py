@@ -1,6 +1,3 @@
-
-# Good morning! Here's your coding interview problem for today.
-
 # This problem was asked by Uber.
 
 # Given an array of integers, return a new array such that each element at
@@ -20,7 +17,7 @@ def product_of_others(numbers):
 
     return [product // number for number in numbers]
 
-
+# Could build up intermediate products to not redo work.
 def product_no_division(numbers):
     result = []
     for i in range(len(numbers)):
