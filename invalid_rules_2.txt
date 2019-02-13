@@ -1,0 +1,5 @@
+A N B
+B NE C
+C W D
+C NW D
+A SW D
