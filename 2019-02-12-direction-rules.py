@@ -75,3 +75,7 @@ if __name__ == '__main__':
 # initial approach of constructing all of the forbidden paths and deciding how
 # to store those vs the actual recorded relationships slowed me down quite a
 # bit. Happy with the ultimate solution though.
+
+
+# Analysis: Should read solution more deeply- theirs is very similar but
+# avoids recursion somehow, which would be nice...
