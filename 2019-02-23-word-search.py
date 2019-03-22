@@ -47,7 +47,7 @@ def exists(board, word):
 
         return found
 
-    visited = [[0] * len(board[False]) for _ in range(len(board))]
+    visited = [[0] * len(board[0]) for _ in range(len(board))]
     for i in range(len(board)):
         for j in range(len(board[0])):
             if helper(word, i, j, visited):
