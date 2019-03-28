@@ -11,7 +11,9 @@ import math
 
 
 def expected_rounds(num_coins):
-    return math.ceil(math.log(num_coins, 2))
+    return math.log(num_coins, 2)
 
-# This gives the number of rounds where the expected number of rounds is below
+# Ceil gives the number of rounds where the expected number of rounds is below
 # 1. Perhaps it should go until number is less than 2 or rounds to 1?
+
+# Analysis: Not taking ceiling makes more sense, to give expected num.
