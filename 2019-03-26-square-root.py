@@ -25,5 +25,5 @@ if __name__ == '__main__':
     print("Should be 3.0: ", square_root(9))
     print("Should be 1.4142: ", square_root(2))
 
-# Analysis: I know there is a sequence that converges to sqrt(n), but can't
-# remember it, so using this as a reasonable, if not very clever, option.
+# Analysis: Another way is to guess and average n and n / guess repeatedly,
+# since one will be an overestimate and one will be an underestimate.
