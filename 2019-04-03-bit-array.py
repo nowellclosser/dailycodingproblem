@@ -58,3 +58,7 @@ class TestBitArray(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+# Notes: Not sure if this is what was intended.  Could also just store as a
+# number and use bit shifting, but seems less space-efficient?
