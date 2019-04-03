@@ -31,3 +31,6 @@ if __name__ == '__main__':
     TREE_1 = Node(10, Node(5, None, Node(2)), Node(5, None, Node(1, Node(-1))))
 
     print("Should be 15:", minimum_complete_path_sum(TREE_1))
+
+# Analysis: this is fine- they have a typo and wanted the minimum sum path,
+# which is a tiny bit harder, but pretty simple.
