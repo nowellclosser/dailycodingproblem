@@ -61,4 +61,4 @@ if __name__ == '__main__':
 
 
 # Notes: Not sure if this is what was intended.  Could also just store as a
-# number and use bit shifting, but seems less space-efficient?
+# number and use bit shifting, but seems less space-efficient.
