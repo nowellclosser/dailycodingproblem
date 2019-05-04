@@ -38,3 +38,6 @@ if __name__ == '__main__':
     print("Should be 5.0: ", evaluate_rpn(
         [15, 7, 1, 1, '+', '-', '/', 3, '*', 2, 1, 1, '+', '+', '-'])
     )
+
+# Analysis: This is pretty much exactly the provided solution. Don't think it
+# should be a hard.

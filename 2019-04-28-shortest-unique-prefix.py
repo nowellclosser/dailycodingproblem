@@ -65,3 +65,6 @@ if __name__ == '__main__':
 # Notes: This is kind of ugly.  I think I should actually have implemented
 # a trie without dicts, so that I could have multiple copies of the same child,
 # and would know immediately when I'm at the shortest prefix.
+
+# Analysis: yeah they did this with a real multi child node implementation.
+# Otherwise similar.
